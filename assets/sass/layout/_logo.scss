@@ -1,0 +1,21 @@
+.logo-slider{
+    .slick-track{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .item{
+            display: inline-block;
+            text-align: center;
+            width: clamp(96px, 6.771vw, 280px) !important;
+            img{
+                display: inline-block;
+                @include media-query(820px){
+                    width: 45%;
+                }
+                @include media-query(490px){
+                    width: 35%;
+                }
+            }
+        }
+    }
+}

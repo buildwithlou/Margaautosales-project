@@ -1,0 +1,107 @@
+.wrapper-dropdown {
+	position: relative;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	text-align: left;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	
+	.selected-display{
+		font-weight: 400;
+		color: $gray-4;
+	}
+
+	&::before {
+		position: absolute;
+		top: 50%;
+		right: 16px;
+		margin-top: -2px;
+		border-width: 6px 6px 0 6px;
+		border-style: solid;
+		border-color: #fff transparent;
+	}
+
+	.topbar-dropdown {
+		width: 100%;
+		background: $white;
+		transition: 0.3s;
+		position: absolute;
+		top: 50px;
+		left: 0px;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		z-index: 99;
+		border-radius: 0 0 4px 4px;
+		box-shadow: inherit;
+		-webkit-transform-origin: top;
+		-moz-transform-origin: top;
+		-ms-transform-origin: top;
+		transform-origin: top;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		opacity: 0;
+		visibility: hidden;
+		box-shadow: -42px 42px 24px rgba(0, 0, 0, 0.01), -24px 24px 20px rgba(0, 0, 0, 0.03), -11px 11px 15px rgba(0, 0, 0, 0.04), -3px 3px 8px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+		
+		li {
+			padding: 4px 16px;
+			line-height: 30px;
+			border-radius: 0;
+			overflow: hidden;
+			font-size: $font-20;
+			font-family: $font-primary;
+			color: $black;
+			font-style: normal;
+			font-weight: 400;
+			@include media-query(1200px) {
+				font-size: 18px;
+			}
+
+			&:last-child {
+				border-bottom: none;
+			}
+
+			&:hover {
+				background-color: $accent-1;
+				color: $white
+			}
+		}
+	}
+
+	&.active {
+		.topbar-dropdown {
+			opacity: 1;
+			visibility: visible;
+			border-radius: 5px;
+		}
+	}
+
+	.scrollable-menu {
+		height: auto;
+		max-height: 200px;
+		overflow-x: hidden;
+	}
+
+	.arrow {
+		float: right;
+		rotate: 180deg;
+	}
+
+	svg {
+		transition: all 0.3s;
+		width: 34px;
+		height: 34px;
+	}
+
+	.rotated {
+		transform: rotate(-180deg);
+	}
+}
