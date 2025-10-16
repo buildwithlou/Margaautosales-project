@@ -741,7 +741,7 @@ strong {
   width: 92%;
 }
 .header-img{
-  max-width: 15%;
+  max-width: 25%;
 }
 }
 
@@ -2607,7 +2607,7 @@ nav .navbar-toggler:focus {
     width: 35%;
   }
   .logoPrincipal{
-  width: 92%;
+  width: 87%;
 }
 }
 
