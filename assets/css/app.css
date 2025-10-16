@@ -733,16 +733,38 @@ strong {
   max-width: 15%;
 }
 }
+/* ONLY MEDIA I WILL KEEP FOR 490PX */
 @media (max-width: 490px) {
+  .logoPrincipal{
+    width: 85% !important;
+  }
   .p-100 {
     padding: 40px 0;
   }
-  .logoPrincipal{
-  width: 92%;
-}
-.header-img{
-  max-width: 25%;
-}
+  .header-img{
+    max-width: 25%;
+  }
+  .pt-64 {
+    padding-top: 22px;
+  }
+  .pt-62 {
+    padding-top: 22px;
+  }
+  .pb-62 {
+    padding-bottom: 22px;
+  }
+  .p-62 {
+    padding: 22px;
+  }
+  .p-16 {
+    padding: 10px;
+  }
+  .fs-101 {
+    font-size: 38px;
+  }
+  .fs-76 {
+    font-size: 38px;
+  }
 }
 
 .pt-100 {
@@ -759,17 +781,7 @@ strong {
   max-width: 15%;
 }
 }
-@media (max-width: 490px) {
-  .pt-100 {
-    padding-top: 48px;
-  }
-  .logoPrincipal{
-  width: 92%;
-}
-  .header-img{
-  max-width: 15%;
-}
-}
+
 
 .pb-100 {
   padding-bottom: 100px;
@@ -822,17 +834,7 @@ strong {
   max-width: 15%;
 }
 }
-@media (max-width: 490px) {
-  .pt-64 {
-    padding-top: 22px;
-  }
-  .logoPrincipal{
-  width: 92%;
-}
-  .header-img{
-  max-width: 15%;
-}
-}
+
 
 .pt-62 {
   padding-top: 62px;
@@ -861,14 +863,7 @@ strong {
   width: 94%;
 }
 }
-@media (max-width: 490px) {
-  .pt-62 {
-    padding-top: 22px;
-  }
-  .logoPrincipal{
-  width: 92%;
-}
-}
+
 
 .pb-62 {
   padding-bottom: 62px;
@@ -897,14 +892,6 @@ strong {
   width: 94%;
 }
 }
-@media (max-width: 490px) {
-  .pb-62 {
-    padding-bottom: 22px;
-  }
-  .logoPrincipal{
-  width: 92%;
-}
-}
 
 .p-62 {
   padding: 62px;
@@ -931,14 +918,6 @@ strong {
   }
   .logoPrincipal{
   width: 94%;
-}
-}
-@media (max-width: 490px) {
-  .p-62 {
-    padding: 22px;
-  }
-  .logoPrincipal{
-  width: 92%;
 }
 }
 
@@ -1041,14 +1020,7 @@ strong {
   width: 94%;
 }
 }
-@media (max-width: 490px) {
-  .p-16 {
-    padding: 10px;
-  }
-  .logoPrincipal{
-  width: 94%;
-}
-}
+
 
 .p-30 {
   padding: 30px;
@@ -1197,14 +1169,7 @@ strong {
   width: 94%;
 }
 }
-@media (max-width: 490px) {
-  .fs-101 {
-    font-size: 38px;
-  }
-  .logoPrincipal{
-  width: 92%;
-}
-}
+
 
 .fs-76 {
   font-size: 76px;
@@ -1218,14 +1183,6 @@ strong {
   .fs-76 {
     font-size: 42px;
   }
-}
-@media (max-width: 490px) {
-  .fs-76 {
-    font-size: 38px;
-  }
-  .logoPrincipal{
-  width: 92%;
-}
 }
 
 .fs-57 {
@@ -1245,9 +1202,6 @@ strong {
   .fs-57 {
     font-size: 38px;
   }
-  .logoPrincipal{
-  width: 92%;
-}
 }
 
 .fs-43 {
@@ -1267,9 +1221,6 @@ strong {
   .fs-43 {
     font-size: 32px;
   }
-  .logoPrincipal{
-  width: 92%;
-}
 }
 
 .fs-32 {
@@ -1417,9 +1368,6 @@ strong {
   .mt-30-sm {
     margin-top: 30px;
   }
-  .logoPrincipal{
-  width: 92%;
-}
 }
 
 .br-25 {
@@ -1531,9 +1479,6 @@ strong {
     right: -20px;
     bottom: -20px;
   }
-  .logoPrincipal{
-  width: 92%;
-}
 }
 
 .dark-btn {
@@ -1912,9 +1857,7 @@ strong {
   .heading h2 {
     font-size: 28px;
   }
-  .logoPrincipal{
-  width: 92%;
-}
+
 }
 .heading h2::before {
   position: absolute;
@@ -1945,17 +1888,11 @@ strong {
   .heading p {
     font-size: 14px;
   }
-  .logoPrincipal{
-  width: 94%;
-}
 }
 @media (max-width: 480px) {
   .heading p br {
     display: none;
   }
-  .logoPrincipal{
-  width: 92%;
-}
 }
 .heading.left h2::before {
   content: url(../media/heading/left-arrow-shape.png);
@@ -2012,9 +1949,6 @@ strong {
   #preloader .loader {
     transform: scale(1.25);
   }
-  .logoPrincipal{
-  width: 92%;
-}
 }
 #preloader .car__body {
   animation: shake 0.2s ease-in-out infinite alternate;
@@ -2275,9 +2209,6 @@ nav .navbar-toggler:focus {
   .footer .detail-blog .footer-detail {
     padding: 120px 10px 30px 30px;
   }
-  .logoPrincipal{
-  width: 92%;
-}
 }
 .footer .detail-blog .footer-detail .contact-detail {
   margin-bottom: 30px;
@@ -2299,9 +2230,6 @@ nav .navbar-toggler:focus {
   .footer .detail-blog .footer-detail .contact-detail a {
     font-size: 16px;
   }
-  .logoPrincipal{
-  width: 92%;
-}
 }
 .footer .detail-blog .footer-detail .contact-detail a i {
   font-size: 32px;
@@ -2455,9 +2383,6 @@ nav .navbar-toggler:focus {
   .banner p {
     font-size: 14px;
   }
-  .logoPrincipal{
-  width: 92%;
-}
 }
 @media (max-width: 768px) {
   .banner p br {
@@ -2599,16 +2524,14 @@ nav .navbar-toggler:focus {
     width: 45%;
   }
   .logoPrincipal{
-  width: 92%;
+  width: 90%;
 }
 }
 @media (max-width: 490px) {
   .logo-slider .slick-track .item img {
     width: 35%;
   }
-  .logoPrincipal{
-  width: 87%;
-}
+
 }
 
 .card-slider .item-list {
@@ -2634,9 +2557,7 @@ nav .navbar-toggler:focus {
   .item-list {
     padding: 15px;
   }
-  .logoPrincipal{
-  width: 92%;
-}
+
 }
 .item-list img {
   margin-bottom: 30px;
