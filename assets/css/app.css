@@ -716,27 +716,32 @@ strong {
     padding: 80px 0;
   }
   .logoPrincipal{
-  width: 94%;
-}
-.header-img{
-  max-width: 15%;
-}
+    width: 94%;
+  }
+  .header-img{
+    max-width: 25%;
+  }
 }
 @media (max-width: 768px) {
   .p-100 {
     padding: 60px 0;
   }
   .logoPrincipal{
-  width: 94%;
+    width: 94%;
+  }
+  .header-img{
+    max-width: 25%;
+  }
 }
-.header-img{
-  max-width: 15%;
-}
-}
-/* ONLY MEDIA I WILL KEEP FOR 490PX */
+
 @media (max-width: 490px) {
   .logoPrincipal{
-    width: 85% !important;
+    width: 80% !important;
+  }
+  .filter-btn{
+    margin: 0 3px !important;
+    font-size: 13px !important;
+    padding: 9px !important;
   }
   .p-100 {
     padding: 40px 0;
@@ -775,11 +780,11 @@ strong {
     padding-top: 64px;
   }
   .logoPrincipal{
-  width: 94%;
-}
+    width: 94%;
+  }
   .header-img{
-  max-width: 15%;
-}
+    max-width: 25%;
+  }
 }
 
 
@@ -794,8 +799,8 @@ strong {
   width: 94%;
 }
   .header-img{
-  max-width: 15%;
-}
+    max-width: 15%;
+  }
 }
 
 .pt-64 {
@@ -809,30 +814,30 @@ strong {
   width: 94%;
 }
   .header-img{
-  max-width: 15%;
-}
+    max-width: 15%;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .pt-64 {
     padding-top: 42px;
   }
   .logoPrincipal{
-  width: 94%;
-}
+    width: 94%;
+  }
   .header-img{
-  max-width: 15%;
-}
+    max-width: 25%;
+  }
 }
 @media (max-width: 767px) {
   .pt-64 {
     padding-top: 32px;
   }
   .logoPrincipal{
-  width: 94%;
-}
+    width: 94%;
+  }
   .header-img{
-  max-width: 15%;
-}
+    max-width: 25%;
+  }
 }
 
 
@@ -860,8 +865,8 @@ strong {
     padding-top: 32px;
   }
   .logoPrincipal{
-  width: 94%;
-}
+    width: 94%;
+  }
 }
 
 
@@ -881,16 +886,16 @@ strong {
     padding-bottom: 42px;
   }
   .logoPrincipal{
-  width: 94%;
-}
+    width: 94%;
+  }
 }
 @media (max-width: 767px) {
   .pb-62 {
     padding-bottom: 32px;
   }
   .logoPrincipal{
-  width: 94%;
-}
+    width: 94%;
+  }
 }
 
 .p-62 {
@@ -909,16 +914,16 @@ strong {
     padding: 42px;
   }
   .logoPrincipal{
-  width: 94%;
-}
+    width: 94%;
+  }
 }
 @media (max-width: 767px) {
   .p-62 {
     padding: 32px;
   }
   .logoPrincipal{
-  width: 94%;
-}
+    width: 94%;
+  }
 }
 
 .p-55 {
@@ -1017,8 +1022,8 @@ strong {
     padding: 10px;
   }
   .logoPrincipal{
-  width: 94%;
-}
+    width: 94%;
+  }
 }
 
 
@@ -1166,8 +1171,8 @@ strong {
     font-size: 49px;
   }
   .logoPrincipal{
-  width: 94%;
-}
+    width: 94%;
+  }
 }
 
 
@@ -1181,7 +1186,7 @@ strong {
 }
 @media (max-width: 768px) {
   .fs-76 {
-    font-size: 42px;
+    font-size: 38px;
   }
 }
 
@@ -1831,7 +1836,7 @@ strong {
   .heading.text-end p {
     order: 2;
   }
-   .button-section{
+  .button-section{
     margin: 0 8px;
   }
 }
@@ -2565,7 +2570,7 @@ nav .navbar-toggler:focus {
   border-radius: 30px;
 }
 .item-list .detail-block {
-  padding: 30px;
+  padding: 15px;
   background: #FAFAFA;
   border-radius: 30px;
 }
