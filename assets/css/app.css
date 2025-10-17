@@ -746,6 +746,14 @@ strong {
   .banner{
     padding: 255px 0 100px 0 !important;
   }
+  .banner .btn-block a {
+    font-size: 16px;
+  }
+  .about-container{ 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
   .p-100 {
     padding: 10px 0;
   }
@@ -788,6 +796,11 @@ strong {
   .header-img{
     max-width: 25%;
   }
+  .about-container{ 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
 }
 
 
@@ -799,10 +812,15 @@ strong {
     padding-top: 0;
   }
   .logoPrincipal{
-  width: 94%;
-}
+    width: 94%;
+  }
   .header-img{
     max-width: 15%;
+  }
+  .about-container{ 
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
 }
 
@@ -810,14 +828,22 @@ strong {
   padding-top: 64px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .pt-100 {
+    padding: 10px 0;
+  }
   .pt-64 {
     padding-top: 52px;
   }
   .logoPrincipal{
-  width: 94%;
-}
+    width: 94%;
+  }
   .header-img{
     max-width: 15%;
+  }
+  .about-container{ 
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2533,7 +2559,7 @@ nav .navbar-toggler:focus {
 }
 @media (max-width: 490px) {
   .logo-slider .slick-track .item img {
-    width: 35%;
+    width: 100%;
   }
 
 }
