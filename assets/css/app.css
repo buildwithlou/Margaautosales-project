@@ -1476,8 +1476,8 @@ strong {
 }
 @media (max-width: 490px) {
   .back-to-top {
-    right: -20px;
-    bottom: -20px;
+    right: 15px;
+    bottom: 55px;
   }
 }
 
