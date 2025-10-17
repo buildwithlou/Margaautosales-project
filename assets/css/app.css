@@ -1825,7 +1825,7 @@ strong {
   .heading.text-end h2 {
     order: 1;
   }
-   .button-section{
+  .button-section{
     margin: 0 8px;
   }
 }
@@ -2023,8 +2023,8 @@ nav .menu-item {
     margin: 0 0 10px 0;
   }
   .button-section{
-    margin: 0 4px;
-    font-size: 15px;
+    margin: 0 3px;
+    font-size: 13px;
   }
 }
 nav .menu-item-has-children {
