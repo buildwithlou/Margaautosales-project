@@ -724,7 +724,7 @@ strong {
 }
 @media (max-width: 768px) {
   .p-100 {
-    padding: 60px 0;
+    padding: 10px 0;
   }
   .logoPrincipal{
     width: 94%;
@@ -743,8 +743,11 @@ strong {
     font-size: 11px !important;
     padding: 9px !important;
   }
+  .banner{
+    padding: 255px 0 100px 0 !important;
+  }
   .p-100 {
-    padding: 40px 0;
+    padding: 10px 0;
   }
   .header-img{
     max-width: 25%;
@@ -777,7 +780,7 @@ strong {
 }
 @media (max-width: 767px) {
   .pt-100 {
-    padding-top: 64px;
+    padding-top: 10px;
   }
   .logoPrincipal{
     width: 94%;
@@ -2319,9 +2322,6 @@ nav .navbar-toggler:focus {
 }
 
 .banner {
-  /*-------------------------
-  background: url(../media/bg/banner-bg.png);
--------------------------*/
   background-repeat: no-repeat;
   background-position: left bottom;
   padding: 290px 0 100px 0;
@@ -2330,9 +2330,6 @@ nav .navbar-toggler:focus {
 }
 @media (max-width: 992px) {
   .banner {
-    /*-------------------------
-    background: url(../media/bg/banner-bg-2.png);
-    -------------------------*/
     background-repeat: no-repeat;
     background-position: center;
     height: 1300px;
@@ -2341,11 +2338,13 @@ nav .navbar-toggler:focus {
 @media (max-width: 768px) {
   .banner {
     height: 1150px;
+    padding: 255px 0 100px 0;
   }
 }
 @media (max-width: 580px) {
   .banner {
     height: 1050px;
+    padding: 255px 0 100px 0;
   }
 }
 @media (max-width: 490px) {
@@ -2526,11 +2525,11 @@ nav .navbar-toggler:focus {
 }
 @media (max-width: 820px) {
   .logo-slider .slick-track .item img {
-    width: 45%;
+    width: 100%;
   }
   .logoPrincipal{
-  width: 90%;
-}
+    width: 90%;
+  }
 }
 @media (max-width: 490px) {
   .logo-slider .slick-track .item img {
